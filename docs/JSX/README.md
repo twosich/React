@@ -26,7 +26,7 @@ componentes mas complejos
 # HTML
 En JSX es importante saber que se pueden usar todas las etiquetas disponibles de HTML. a estos mismos se los cataloga de elementos, todos estos se representan con letras minusculas a diferencia de los componentes que por ley inician todos en letas mayusculas
 
-## Componente
+### Componente
 ```jsx
 const Example() {
     return (
@@ -34,7 +34,19 @@ const Example() {
     );
 }
 ```
-## Elemento
+### Elemento
 ```jsx
 const example = <h1>Hello World</h1>;
+```
+
+## Atributos
+En JSX se pueden añadir atributos a las etiquetas, en lo que difiere es que en algunos casos no se declara de la forma acostumbrada, un ejemplo es el atributo class
+
+### JSX
+```jsx
+const example = <h1 className="Simply" >Hello World</h1>;
+```
+### HTML
+```html
+<h1 class="Simply" >Hello World</h1>;
 ```
