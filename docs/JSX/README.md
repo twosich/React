@@ -51,9 +51,9 @@ const example = <h1 className="Simply" >Hello World</h1>;
 <h1 class="Simply">Hello World</h1>;
 ```
 
-Esto se debe a que en JavaScript la palabra class es una palabra reservada, esta a diferencia de HTML puro usa una palabra reservada escrita como className, su diferencia principal es que usa camelCase.
+Esto se debe a que en JavaScript la palabra class es una palabra reservada, esta a diferencia de HTML puro, usa una palabra reservada escrita como className, su diferencia principal es que usa camelCase.
 
-### Otros ejemplo:
+### Otros ejemplos:
 ```html
 <h1 for="css">CSS</h1>;
 ```
@@ -93,7 +93,6 @@ const styleDiv = {
 Las llaves se deben a que en JSX los atributos funcionan como variables de JavaScript en algunos casos, y para aplicar estos atributos se aplican de esta forma(Esto se da solo en los casos donde se utilizan variables).
 
 Alternativa en una sola linea. esta alternativa ocupa llaves dobles debido a que las primeras llaves insertan JavaScript y las segundas funcionan como un objecto de JavaScript sin necesidad de una variable.
-#### JSX
 ```jsx
 <div style={{color: 'yellow'}}>Hello World</div>
 ```
