@@ -6,5 +6,5 @@ El DOM se lo define como Document Object Model, este es una representacion de lo
 
 ## Atributos del DOM reconocidos por React
 <div align="left">
-<img src="dom.png">
+<img src="changed.png">
 </div>
