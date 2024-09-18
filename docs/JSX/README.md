@@ -22,3 +22,19 @@ Estos definen lo que se visualiza en la pantalla.
 Los componentes en React estan compuestos por Elementos, estos 
 ultimos son estructuras de codigo minimas que permiten construir 
 componentes mas complejos
+
+# HTML
+En JSX es importante saber que se pueden usar todas las etiquetas disponibles de HTML. a estos mismos se los cataloga de elementos, todos estos se representan con letras minusculas a diferencia de los componentes que por ley inician todos en letas mayusculas
+
+## Componente
+```jsx
+const Example() {
+    return (
+        <h1>Hello World</h1>
+    );
+}
+```
+## Elemento
+```jsx
+const example = <h1>Hello World</h1>;
+```
